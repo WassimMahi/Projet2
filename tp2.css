@@ -1,0 +1,51 @@
+#jeu table tr td {
+	width: 40px;
+	height: 40px;
+    color: black;
+	border: 1px solid black;
+	font-size: 20px;
+	font-family: Helvetica;
+	text-align: center;
+	vertical-align: center;
+}
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centeredButton {
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+ 
+#styleErreurs{
+	position: absolute;
+	top: 15%;
+	left: 37%;
+	transform: translate(-50%, -50%);
+	color : red
+  }
+
+  #stylePiecesRestantes{
+	position: absolute;
+	top: 15%;
+	left: 58%;
+	transform: translate(-50%, -50%);
+	color : red
+  }
+
+#styleJouer{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color : red;
+	font-size: 24px;
+	font-weight: bold;
+}
+  
+
